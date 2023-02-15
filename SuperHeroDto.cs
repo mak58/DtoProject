@@ -1,0 +1,15 @@
+using System;
+
+namespace DtoProject.Core.Dtos
+{
+    public class SuperHeroDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Place { get; set; } = string.Empty;
+        public DateTime DateAdded { get; set; }
+        public DateTime? DateModified { get; set; } 
+    }
+}
